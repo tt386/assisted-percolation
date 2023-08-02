@@ -1,0 +1,1 @@
+This script measures the height of the mutant escape region above a patch, after the patch has been infected by a mutant strain which has been seeded at the bottom-most point of the obstacle. Many repeats per fitness value are used to obtain a median line.

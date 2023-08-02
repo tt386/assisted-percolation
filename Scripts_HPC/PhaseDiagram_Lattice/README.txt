@@ -1,0 +1,1 @@
+The indea of this script is to see how the probability of mutant domination varies with both Mutant Fitness and the area fraction of the patches, whch are arranged in a lattice shape. This would then be compared against a theoretical prediction.
