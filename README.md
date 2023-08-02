@@ -186,7 +186,7 @@ In this directory, the `Plotting.py` has two optional arguments:
 - `python Plotting.py -n 2 4 105` means that only the 2nd, 4th and 105th frames will be plotted. These numbers can be any integer.  
 
 
-Note: In this repository we have endeavoured to include all data files used to generate figures. The exception to this are the Random and Lattice patch distributions with a (heightxwidth) of (2000x2000): these `.npz` files exceeded 100MB, the limit Github will accept.
+Note: In this repository we have endeavoured to include all data files used to generate figures. The exception to this are the Random and Lattice patch distributions with a (height,width) of (2000,2000): these `.npz` files exceeded 100MB, the limit Github will accept.
 
 #### Directory `Scripts_OneNode/ClusterHeightStatistics`
 
