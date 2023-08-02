@@ -18,7 +18,7 @@
 
 Manuscript published in XXX in 2023 by Thomas Tunstall, Tim Rogers, and Wolfram Möbius. The corresponding preprint can be found on arXiv XXX.
 
-
+We have included all data files and results pertinent to the manuscript (except those larger than 100MB), hence why this repository is so large.
 ## Brief description of the generalized Eden Model
 
 A full description can be found in the paper and supplementary information.
@@ -184,6 +184,9 @@ In this directory, the `Plotting.py` has two optional arguments:
 
 - `python Plotting.py -b 1` means that only the patches will be plotted ('b' stands for 'background', and the '1' means `True`)
 - `python Plotting.py -n 2 4 105` means that only the 2nd, 4th and 105th frames will be plotted. These numbers can be any integer.  
+
+
+Note: In this repository we have endeavoured to include all data files used to generate figures. The exception to this are the Random and Lattice patch distributions with a (heightxwidth) of (2000x2000): these `.npz` files exceeded 100MB, the limit Github will accept.
 
 #### Directory `Scripts_OneNode/ClusterHeightStatistics`
 
