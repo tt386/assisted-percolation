@@ -170,13 +170,15 @@ for i in FitnessList:
 guidexlist = np.linspace(1e-6,1e-4,200)
 guideylist = guidexlist*1e4
 
+cols = ["b","orange","pink"]
 
 plt.figure(1)
 for i in range(len(orderedfitness)):
     plt.loglog(
         (MutAndProbMatrix[i][0]),
         (MutAndProbMatrix[i][1]),
-        label='%0.1f'%(orderedfitness[i]))
+        label='%0.1f'%(orderedfitness[i]),
+        color=cols[i])
 
 plt.loglog(guidexlist,guideylist,'k',linewidth=1)
 

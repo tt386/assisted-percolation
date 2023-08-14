@@ -224,7 +224,7 @@ fig = plt.figure(2)
 ax = fig.add_subplot(1, 1, 1)
 
 plt.plot(MeanAngleList,MedianCapHeightList,'k',label="Median")
-plt.plot(TheoryAngleList,TheoryCapHeight,'red',label="Theory")
+plt.plot(TheoryAngleList,TheoryCapHeight,'--c',label="Theory")
 
 #plt.legend(loc='lower center',fontsize = 20)
 #plt.legend(bbox_to_anchor=(1.04,0.5), loc="center left", borderaxespad=0,fontsize=20)

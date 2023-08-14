@@ -141,7 +141,7 @@ if len(FlatClusterHeightList) > 0:
             scipy.special.binom(2*H,H))
 
     plt.loglog(Flatxlist,Flatfreqlist,'orange',label='Sim: Flat')
-    plt.loglog(Flatxlist,Flattheorylist,'c',label='Theory: Flat')
+    plt.loglog(Flatxlist,Flattheorylist,'--b',label='Theory: Flat')
 
 plt.legend(loc='upper right',fontsize=5,frameon=False)
 
@@ -202,7 +202,7 @@ for H in range(1,41):
 
     #plt.hist(WidthGivenHeightList[H-1],bins,density=True)
     plt.scatter(countdictkeys,countdictvals,s=100,marker="x",color='k',zorder=5)
-    plt.plot(np.arange(len(TheoryWidthProbList))+1,TheoryWidthProbList,'.r-',
+    plt.plot(np.arange(len(TheoryWidthProbList))+1,TheoryWidthProbList,'.c-',
         label='Analytical',linewidth=3,markersize=20)
 
     #plt.legend(loc='upper right',fontsize=30,frameon=False)
