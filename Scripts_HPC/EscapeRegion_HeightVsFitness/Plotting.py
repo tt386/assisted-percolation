@@ -157,7 +157,7 @@ for d in dirlist:
 
     print(angle)
     print(HistogramList)
-
+    """
     #Histogram of cap heights
     plt.figure(1)
     upperlim = 300
@@ -197,7 +197,7 @@ for d in dirlist:
 
     plt.savefig(args.directory + '/Hist_fitness_%0.3f.png'%(fitness))
     plt.close()
-    
+    """
 
 
 #Sort the mean:
@@ -255,7 +255,7 @@ plt.savefig(str(args.directory) + '/Median_CapHeight.pdf')
 plt.savefig(str(args.directory) + '/Median_CapHeight.eps')
 #% start: automatic generated code from pylustrator
 #% end: automatic generated code from pylustrator
-plt.show()
+#plt.show()
 
 #############################################################################
 ############################################################################

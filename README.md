@@ -311,19 +311,19 @@ Also note that in the folder `Scripts_OneNode` cases, overwriting a directory is
 
 | Figure(s) | Commands for simulation and creating figure |
 | ------------- | ------------- |
-| [2B](./RawFigures/Fig_2_B.pdf) | `cp SaveFiles/Height_280_Width_180_Repeats_10000_Radius_60_BottomBuffer_100_FlatInfection_RoughFront/Params.py .` <br> `python CreateParams.py -r 788091261247258457` <br> `sbatch --array=0-150 Parallel_Bash.sh` <br> `python Plotting.py -d SaveFiles/Height_280_Width_180_Repeats_10000_Radius_60_BottomBuffer_100_FlatInfection_RoughFront` |
+| [2B](./RawFigures/Fig_2_B.pdf) | `cp SaveFiles/Fig_Height_280_Width_180_Repeats_10000_Radius_60_BottomBuffer_100_FlatInfection_RoughFront/Params.py .` <br> `python CreateParams.py -r 788091261247258457` <br> `sbatch --array=0-150 Parallel_Bash.sh` <br> `python Plotting.py -d SaveFiles/Height_280_Width_180_Repeats_10000_Radius_60_BottomBuffer_100_FlatInfection_RoughFront` |
 
 ## `Scripts_HPC/EscapeRegion_HeightVsFitness`
 
 | Figure(s) | Commands for simulation and creating figure |
 | ------------- | ------------- |
-| [3C](./RawFigures/Fig_3_C.pdf) | `cp SaveFiles/Height_1000_Width_150_Repeats_1000_Radius_50_Min_Fitness_0.700_Max_Fitness_0.990_num_Fitness_100_FlatInfection_RoughFront_Random_Radius_50/Params.py .` <br> `python CreateParams.py -r 8392284138695379699` <br> `sbatch --array=0-100 Parallel_Bash.sh` <br> `python Plotting.py -d SaveFiles/Height_1000_Width_150_Repeats_1000_Radius_50_Min_Fitness_0.700_Max_Fitness_0.990_num_Fitness_100_FlatInfection_RoughFront_Random_Radius_50` |
+| [3C](./RawFigures/Fig_3_C.pdf) | `cp SaveFiles/Fig_Height_1000_Width_150_Repeats_1000_Radius_50_Min_Fitness_0.700_Max_Fitness_0.990_num_Fitness_100_FlatInfection_RoughFront_Random_Radius_50/Params.py .` <br> `python CreateParams.py -r 8392284138695379699` <br> `sbatch --array=0-100 Parallel_Bash.sh` <br> `python Plotting.py -d SaveFiles/Height_1000_Width_150_Repeats_1000_Radius_50_Min_Fitness_0.700_Max_Fitness_0.990_num_Fitness_100_FlatInfection_RoughFront_Random_Radius_50` |
 
 ## `Scripts_HPC/EscapeRegion_HeightVsAngle`
 
 | Figure(s) | Commands for simulation and creating figure |
 | ------------- | ------------- |
-| [3D](./RawFigures/Fig_3_D.pdf) | `cp SaveFiles/Height_1000_Width_150_Repeats_1000_Radius_50_Fitness_0.950_FlatInfection_RoughFront_Random_Radius_50/Params.py .` <br> `python CreateParams.py -r 6942065374998542844` <br> `sbatch --array=0-572 Parallel_Bash.sh` <br> `python Plotting.py -d SaveFiles/Height_1000_Width_150_Repeats_1000_Radius_50_Fitness_0.950_FlatInfection_RoughFront_Random_Radius_50` |
+| [3D](./RawFigures/Fig_3_D.pdf) | `cp SaveFiles/Fig_Height_1000_Width_150_Repeats_1000_Radius_50_Fitness_0.950_FlatInfection_RoughFront_Random_Radius_50/Params.py .` <br> `python CreateParams.py -r 6942065374998542844` <br> `sbatch --array=0-572 Parallel_Bash.sh` <br> `python Plotting.py -d SaveFiles/Height_1000_Width_150_Repeats_1000_Radius_50_Fitness_0.950_FlatInfection_RoughFront_Random_Radius_50` |
 
 ## `Scripts_HPC/PhaseDiagram_Random`
 

@@ -150,14 +150,14 @@ for d in dirlist:
 
     print(angle)
     print(HistogramList)
-
+    """
     #Histogram of cap heights
     plt.figure(1)
     upperlim = 300
     binstep = 10
     bins = np.arange(0,upperlim+binstep,binstep)
     
-
+    
     plt.hist(HistogramList,bins=bins)
 
     plt.axvline(np.mean(HistogramList),color='r',linewidth=3,label='Mean')
@@ -190,7 +190,7 @@ for d in dirlist:
 
     plt.savefig(args.directory + '/Hist_angle_%0.5f.png'%(angle))
     plt.close()
-
+    """
 
 
 #Sort the mean:
@@ -251,7 +251,7 @@ plt.figure(2).axes[0].set_position([0.25, 0.24, 0.70, 0.7])#[0.18, 0.24, 0.8, 0.
 plt.savefig(str(args.directory) + '/Median_CapHeight.pdf')
 #% start: automatic generated code from pylustrator
 #% end: automatic generated code from pylustrator
-plt.show()
+#plt.show()
 
 #############################################################################
 ############################################################################
