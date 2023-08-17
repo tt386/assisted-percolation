@@ -329,7 +329,7 @@ Also note that in the folder `Scripts_OneNode` cases, overwriting a directory is
 
 | Figure(s) | Commands for simulation and creating figure |
 | ------------- | ------------- |
-| [4C](./RawFigures/Fig_4_B.eps) | `cp SaveFiles/SampleOutput/Params.py .` <br> `python CreateParams.py -r 1919149702158833669` <br> `sbatch --array=0-306 Parallel_Bash.sh` <br> `python Plotting.py -d SaveFiles/DomainHeight_10000_DomainWidth_2000_Repeats_50_FlatInfection_RoughFront_Random_Radius_50` |
+| [4C](./RawFigures/Fig_4_B.eps) | `cp SaveFiles/SampleOutput/Params.py .` <br> `python CreateParams.py -r 8104845134909342604` <br> `sbatch --array=0-306 Parallel_Bash.sh` <br> `python Plotting.py -d SaveFiles/DomainHeight_10000_DomainWidth_2000_Repeats_50_FlatInfection_RoughFront_Random_Radius_50` |
 
 ## `Scripts_HPC/PhaseDiagram_Lattice`
 
