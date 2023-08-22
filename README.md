@@ -9,7 +9,7 @@
 
 [Structure of simulation code](#structure-of-simulation-code)
 
-[Directory structure and exectuing code](#directory-structure-and-executing-code)
+[Directory structure and executing code](#directory-structure-and-executing-code)
 
 [Reproducing figures](#reproducing-figures)
 
@@ -274,6 +274,8 @@ The original locations of the subfigures are listed in ```Bash_Copying.sh```. Th
 
 To recreate a given subfigure, move into the appropriate folder and execute the commands detailed below. Note that the directory created to record results will not be identical to the folder from which the parameter file is taken. The name of the directory is found in the plotting part of the instructions.
 
+All of the `HPC` scripts were executed in an `Anaconda3` environment: by inspection, the results are identical to executing in the given `Eden` environment.
+
 Also note that in the folder `Scripts_OneNode` cases, overwriting a directory is prevented to ensure no data is accidentally overwritten.
 
 ## `Scripts_OneNode/SingleSystemEvolution`
@@ -286,7 +288,7 @@ Also note that in the folder `Scripts_OneNode` cases, overwriting a directory is
 | [2C_i](./RawFigures/Fig_2_C_i_a.png), [3A_i](./RawFigures/Fig_3_A_i_a.png) | `cp SaveFiles/Fig_2C_i_Height_400_Width_400_Fitness_0.900_MutProb_0.00050_Radius_100_SingleObstacle/Params.py .` <br> `python Script.py -r 1798679661298138938` <br> `python Plotting.py -d SaveFiles/Height_400_Width_400_Fitness_0.900_MutProb_0.00050_Radius_100_SingleObstacle` |
 | [2C_ii](./RawFigures/Fig_2_C_ii_a.png), [3A_ii](./RawFigures/Fig_3_A_ii_a.png) | `cp SaveFiles/Fig_2C_ii_Height_400_Width_400_Fitness_0.900_MutProb_0.00050_Radius_100_SingleObstacle/Params.py .` <br> `python Script.py -r 8349812612310990994` <br> `python Plotting.py -d SaveFiles/Height_400_Width_400_Fitness_0.900_MutProb_0.00050_Radius_100_SingleObstacle` |
 | [4A_i](./RawFigures/Fig_4_A_i.png), [S1B_i](./RawFigures/SuppFig_1_C_i.png) | `cp SaveFiles/RandHeatMap_Height_2000_Width_2000_Fitness_0.900_MutProb_0.00100_Radius_40_Random_AreaFraction_0.400/Params.py .` <br> `python Script.py -r 1536085347793381594` <br> `python Plotting.py -d SaveFiles/Height_2000_Width_2000_Fitness_0.900_MutProb_0.00100_Radius_40_Random_AreaFraction_0.400 -n 200` |
-| [S1B_ii](./RawFigures/SuppFig_1_C_ii.png) | `cp SaveFiles/RandHeatMap_Height_2000_Width_2000_Fitness_0.900_MutProb_0.02000_Radius_40_Random_AreaFraction_0.400/Params.py .` <br> `python Script.py -r 2701395967057991801` <br> `python Plotting.py -d Height_2000_Width_2000_Fitness_0.900_MutProb_0.02000_Radius_40_Random_AreaFraction_0.400 -n 200` |
+| [S1B_ii](./RawFigures/SuppFig_1_C_ii.png) | `cp SaveFiles/RandHeatMap_Height_2000_Width_2000_Fitness_0.900_MutProb_0.02000_Radius_40_Random_AreaFraction_0.400/Params.py .` <br> `python Script.py -r 2701395967057991801` <br> `python Plotting.py -d SaveFiles/Height_2000_Width_2000_Fitness_0.900_MutProb_0.02000_Radius_40_Random_AreaFraction_0.400 -n 200` |
 | [4A_ii](./RawFigures/Fig_4_A_ii.png), [S1B_iii](./RawFigures/SuppFig_1_C_iii.png) | `cp SaveFiles/RandHeatMap_Height_2000_Width_2000_Fitness_0.980_MutProb_0.00100_Radius_40_Random_AreaFraction_0.400/Params.py .` <br> `python Script.py -r 5538001929365847712` <br> `python Plotting.py -d SaveFiles/Height_2000_Width_2000_Fitness_0.980_MutProb_0.00100_Radius_40_Random_AreaFraction_0.400 -n 200` |
 | [4A_iii](./RawFigures/Fig_4_A_iii.png), [S1B_iiii](./RawFigures/SuppFig_1_C_iiii.png) | `cp SaveFiles/RandHeatMap_Height_2000_Width_2000_Fitness_0.900_MutProb_0.00100_Radius_40_Random_AreaFraction_0.700/Params.py .` <br> `python Script.py -r 530881470231357024` <br> `python Plotting.py -d SaveFiles/Height_2000_Width_2000_Fitness_0.900_MutProb_0.00100_Radius_40_Random_AreaFraction_0.700 -n 200` |
 | [5A_i](./RawFigures/Fig_5_A_i.png) | `cp SaveFiles/LattHeatMap_Height_2000_Width_2000_Fitness_0.900_MutProb_0.00100_Radius_40_Lattice_LatticeSurfSep_41.000_AreaFraction_0.400/Params.py .` <br> `python Script.py -r 6075686819584632846` <br> `python Plotting.py -d SaveFiles/Height_2000_Width_2000_Fitness_0.900_MutProb_0.00100_Radius_40_Lattice_LatticeSurfSep_41.000_AreaFraction_0.400 -n 200` |
